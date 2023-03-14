@@ -1,0 +1,22 @@
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "embd_pdrop": 0.1,
+  "gradient_checkpointing": false,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_inner": null,
+  "n_layer": 24,
+  "n_positions": 1024,
+  "output_past": true,
+  "resid_pdrop": 0.1,
+  "tokenizer_class": "BertTokenizer",
+  "vocab_size": 21128
+}
