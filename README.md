@@ -1,4 +1,4 @@
-# Pre-train-GPT2-3
+# Pre-train-GPT2/3
 从头开始训练自己的GPT模型
 
 ### 模型结构
