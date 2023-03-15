@@ -38,7 +38,7 @@ print(len(train_dataset))
 
 
 
-config = AutoConfig.from_pretrained("/home/Xuxiangjun/Model_TH/gptbase/config.json")
+config = AutoConfig.from_pretrained("./gptbase/config.json")
 model = GPT2LMHeadModel(config).cuda()
 model_size = sum(t.numel() for t in model.parameters())
 print(f"GPT-2 size: {model_size/1000**2:.1f}M parameters")
